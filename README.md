@@ -34,7 +34,7 @@ public class YashBiware {
 > I'm a developer who loves building things — from clean freelance websites to Chrome extensions that fight hate speech.  
 > I don't just use AI tools — I **master** them. Give me a problem and a prompt window, and I'll figure it out.
 
----
+--- 
 
 ## 🛠️ Tech Stack
 
@@ -59,9 +59,6 @@ public class YashBiware {
 ![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-blueviolet?style=for-the-badge&logo=sparkles&logoColor=white)
 
 </div>
-
----
-
 
 ---
 
