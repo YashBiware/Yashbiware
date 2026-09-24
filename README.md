@@ -1,4 +1,8 @@
 <pre>
+  <pre>
+<font color="#00ff00">yashbiware@BUCKSSSSS:</font><font color="#0080ff">~</font><font color="#ffffff">$ whoami</font>
+<font color="#ffff00">Yash Biware</font>
+</pre>
 <span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ pwd</span>
 <span style="color:#ffffff">/home/yashbiware</span>
 
