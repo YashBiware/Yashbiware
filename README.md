@@ -1,165 +1,171 @@
-<div align="center">
+<pre>
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ pwd</span>
+<span style="color:#ffff00">/home/yashbiware</span>
 
-# `yash@github:~$`
 
-**Yash Biware**  
-Computer Science Student · Cloud / DevOps
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ whoami</span>
+<span style="color:#ffff00">yashbiware</span>
 
-`Indore, Madhya Pradesh, India`
 
-[LinkedIn](https://www.linkedin.com/in/yash-biware-07a6a126/) · [Email](mailto:biwareyash09@gmail.com)
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ echo $GIT_PROFILE</span>
+<span style="color:#ffff00">github.com/YashBiware</span>
 
-</div>
 
----
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ echo $ROLE</span>
+<span style="color:#ffff00">Computer Science Student | Cloud & DevOps</span>
 
-## `yash@github:~$ whoami`
 
-```text
-Yash Biware
-Computer Science student
-Focus: Cloud / DevOps
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ echo $LOCATION</span>
+<span style="color:#ffff00">Indore, Madhya Pradesh, India</span>
 
-Building practical foundations in:
-AWS · Linux · Networking · Cloud Security
 
-yash@github:~$ cat ~/hands-on-labs.txt
-AWS Cloud Infrastructure & Networking
 
-→ AWS CLI
-→ Amazon EC2
-→ Amazon S3
-→ Amazon VPC
-→ Subnets & Route Tables
-→ Internet Gateway
-→ Security Groups
-→ IPv4 & CIDR
-→ SSH
-→ Amazon Linux 2023
-→ Linux CLI
 
-What I have practiced
-<details>
-<summary><b>EC2 & Linux</b></summary>
 
-- Launched an Amazon EC2 instance using Amazon Linux 2023
-- Worked with EC2 key pairs and Security Groups
-- Connected through SSH
-- Used Linux commands to inspect the system, user, hostname, network interfaces and filesystem
-- Troubleshot SSH connectivity by checking the client IP and /32 ingress rule
-</details>
 
-<details>
-<summary><b>S3</b></summary>
 
-- Created and managed an S3 bucket through AWS CLI
-- Uploaded and downloaded an object
-- Verified objects and bucket state
-- Deleted resources and cleaned up the lab
-</details>
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ ls</span>
+<span style="color:#ffffff">about.txt</span>
+<span style="color:#ffffff">hands-on-labs/</span>
+<span style="color:#ffffff">skills.yml</span>
+<span style="color:#ffffff">certifications.txt</span>
+<span style="color:#ffffff">experience.txt</span>
+<span style="color:#ffffff">education.txt</span>
+<span style="color:#ffffff">contact.txt</span>
 
-<details>
-<summary><b>VPC & Networking</b></summary>
 
-- Inspected VPC networking components
-- Worked with subnets, route tables and Internet Gateway
-- Practiced IPv4 addressing and CIDR
-- Examined inbound and outbound traffic
-- Worked with Security Group rules
-</details>
 
-yash@github:~$ cat profile.yml
-name: Yash Biware
-location: Indore, Madhya Pradesh, India
 
-focus:
-  - Cloud
-  - DevOps
 
-cloud:
-  platform:
-    - AWS
-  hands_on:
-    - AWS CLI
-    - EC2
-    - S3
-    - VPC
-    - Security Groups
-    - SSH
 
-linux:
-  - Linux CLI
-  - Amazon Linux 2023
-  - Filesystem
-  - Networking
-  - SSH
 
-networking:
-  - IPv4
-  - CIDR
-  - TCP/IP
-  - Network Routing
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ cat about.txt</span>
 
-security:
-  - Cloud Security
-  - Network Security
-  - Cybersecurity Fundamentals
+<span style="color:#ffff00">Computer Science student focused on Cloud and DevOps.</span>
+<span style="color:#ffffff">Building practical knowledge through AWS and Linux hands-on labs.</span>
+<span style="color:#ffffff">Currently exploring cloud infrastructure, networking, security and automation.</span>
 
-currently_learning:
-  - Terraform
-  - Cloud infrastructure
-  - DevOps workflows
 
-# Add a real cloud project here when one is completed.
-# projects:
-#   - name: "YOUR CLOUD PROJECT"
-#     description: "Add a factual project description."
-#     technologies:
-#       - "AWS"
 
-yash@github:~$ cat ~/certifications.txt
-AWS Certified Cloud Practitioner — 2026
-AWS Solutions Architecture Job Simulation — Forage / AWS — 2026
 
-Palo Alto Networks
-→ Cybersecurity Fundamentals
-→ Network Security Fundamentals
-→ Cloud Security Fundamentals
-→ Security Operations Fundamentals
-→ AI in Cybersecurity Fundamentals
 
-Cisco Networking Academy
-→ Introduction to Cybersecurity
 
-yash@github:~$ cat ~/experience.txt
-Palo Alto Cybersecurity Virtual Intern
-AICTE–EduSkills · Palo Alto Networks · Jun–Jul 2026
 
-Java Backend Development Intern
-Codveda Technologies · Aug 2024
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ cd hands-on-labs</span>
 
-yash@github:~$ cat ~/skills.txt
-Cloud
-AWS · AWS CLI · EC2 · S3 · VPC
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~/hands-on-labs</span><span style="color:#ffffff">$ cat aws-infrastructure/README</span>
 
-Networking & Linux
-Linux · Amazon Linux · IPv4 · CIDR · TCP/IP · SSH · Network Routing
+<span style="color:#ffff00">AWS Infrastructure — Hands-on Labs</span>
 
-Development
-Java · C · C++ · OOP · REST APIs · MySQL · Git · GitHub
+<span style="color:#ffffff">• AWS CLI</span>
+<span style="color:#ffffff">• Amazon EC2</span>
+<span style="color:#ffffff">• Amazon S3</span>
+<span style="color:#ffffff">• VPC & Subnets</span>
+<span style="color:#ffffff">• Route Tables & Internet Gateway</span>
+<span style="color:#ffffff">• Security Groups</span>
+<span style="color:#ffffff">• SSH & CIDR</span>
+<span style="color:#ffffff">• Amazon Linux 2023</span>
+<span style="color:#ffffff">• Linux CLI & troubleshooting</span>
 
-Frontend
-HTML5 · CSS3 · Tailwind CSS
 
-yash@github:~$ cat ~/education.txt
-B.Tech — Computer Science & Engineering
-Medi-Caps University, Indore
-2023–2027
 
-yash@github:~$ echo "Building. Learning. Deploying."
-Building. Learning. Deploying.
 
-<sub>
-This profile represents my current learning and hands-on experience.
-Cloud projects will be added as they are actually built.
-</sub>
+
+
+
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~/hands-on-labs</span><span style="color:#ffffff">$ cd ..</span>
+
+
+
+
+
+
+
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ cat skills.yml</span>
+
+<span style="color:#ffff00">cloud:</span>
+<span style="color:#ffffff">  platform: AWS</span>
+<span style="color:#ffffff">  services: EC2, S3, VPC</span>
+<span style="color:#ffffff">  networking: IPv4, CIDR, TCP/IP, Routing</span>
+<span style="color:#ffffff">  security: Security Groups, SSH, Cloud Security</span>
+
+<span style="color:#ffff00">linux:</span>
+<span style="color:#ffffff">  os: Linux, Amazon Linux 2023</span>
+<span style="color:#ffffff">  tools: Linux CLI, AWS CLI</span>
+
+<span style="color:#ffff00">development:</span>
+<span style="color:#ffffff">  languages: Java, C, C++</span>
+<span style="color:#ffffff">  backend: REST APIs, MySQL</span>
+<span style="color:#ffffff">  tools: Git, GitHub</span>
+
+<span style="color:#ffff00">currently_learning:</span>
+<span style="color:#ffffff">  - Terraform</span>
+<span style="color:#ffffff">  - Cloud Infrastructure</span>
+<span style="color:#ffffff">  - DevOps Workflows</span>
+
+
+
+
+
+
+
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ cat certifications.txt</span>
+
+<span style="color:#ffff00">AWS Certified Cloud Practitioner — AWS — 2026</span>
+<span style="color:#ffffff">AWS Solutions Architecture Job Simulation — Forage — 2026</span>
+<span style="color:#ffffff">Palo Alto Networks — Cybersecurity Fundamentals</span>
+<span style="color:#ffffff">Palo Alto Networks — Network Security Fundamentals</span>
+<span style="color:#ffffff">Palo Alto Networks — Cloud Security Fundamentals</span>
+<span style="color:#ffffff">Palo Alto Networks — Security Operations Fundamentals</span>
+<span style="color:#ffffff">Palo Alto Networks — AI in Cybersecurity Fundamentals</span>
+<span style="color:#ffffff">Cisco Networking Academy — Introduction to Cybersecurity</span>
+
+
+
+
+
+
+
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ cat experience.txt</span>
+
+<span style="color:#ffff00">Palo Alto Cybersecurity Virtual Intern — 2026</span>
+<span style="color:#ffffff">AICTE–EduSkills × Palo Alto Networks</span>
+
+<span style="color:#ffff00">Java Backend Development Intern — 2024</span>
+<span style="color:#ffffff">Codveda Technologies</span>
+
+
+
+
+
+
+
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ cat education.txt</span>
+
+<span style="color:#ffff00">B.Tech Computer Science & Engineering</span>
+<span style="color:#ffffff">Medi-Caps University, Indore</span>
+<span style="color:#ffffff">2023 — 2027</span>
+
+
+
+
+
+
+
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ cat contact.txt</span>
+
+<span style="color:#ffff00">Email:</span> <span style="color:#ffffff">biwareyash09@gmail.com</span>
+<span style="color:#ffff00">LinkedIn:</span> <span style="color:#ffffff">linkedin.com/in/yash-biware-07a6a126/</span>
+<span style="color:#ffff00">GitHub:</span> <span style="color:#ffffff">github.com/YashBiware</span>
+
+
+
+
+
+
+
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$ echo "Building. Learning. Deploying."</span>
+<span style="color:#ffff00">Building. Learning. Deploying.</span>
+
+<span style="color:#00ff00">yashbiware@BUCKSSSSS:</span><span style="color:#0080ff">~</span><span style="color:#ffffff">$</span>
+</pre>
