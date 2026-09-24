@@ -1,4 +1,7 @@
 <pre>
+$\color{green}{\text{yashbiware@BUCKSSSSS:}}$\color{blue}{\text{~}}\color{white}{\text{\$ whoami}}
+$\color{yellow}{\text{Yash Biware}}$
+</pre>
   <pre>
 <font color="#00ff00">yashbiware@BUCKSSSSS:</font><font color="#0080ff">~</font><font color="#ffffff">$ whoami</font>
 <font color="#ffff00">Yash Biware</font>
